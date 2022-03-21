@@ -19,7 +19,7 @@
     right: 0px;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 500px) {
     .response-left {
         background-image: linear-gradient(to left, blue, rgb(255, 27, 65));
         width: 100%;
