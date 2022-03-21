@@ -7,7 +7,7 @@
     background-image: linear-gradient(to left, blue, rgb(255, 27, 65));
     width: 50%;
     height: auto;
-    
+    padding: 5px;
 }
 
 .response-rigth {
@@ -17,6 +17,7 @@
     position: absolute;
     top: 0px;
     right: 0px;
+    padding: 5px;
 }
 
 @media screen and (max-width: 500px) {
@@ -24,7 +25,7 @@
         background-image: linear-gradient(to left, blue, rgb(255, 27, 65));
         width: 100%;
         height: auto;
-        
+        padding: 5px;
     }
     
     .response-rigth {
@@ -32,5 +33,6 @@
         width: 100%;
         height: auto;   
         position: relative;
+        padding: 5px;
     }
 }
