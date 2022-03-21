@@ -1,0 +1,36 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.response-left {
+    background-image: linear-gradient(to left, blue, rgb(255, 27, 65));
+    width: 50%;
+    height: auto;
+    
+}
+
+.response-rigth {
+    background-image: linear-gradient(to left,rgb(255, 27, 65), blue);
+    width: 50%;
+    height: auto;   
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+@media screen and (max-width: 425px) {
+    .response-left {
+        background-image: linear-gradient(to left, blue, rgb(255, 27, 65));
+        width: 100%;
+        height: auto;
+        
+    }
+    
+    .response-rigth {
+        background-image: linear-gradient(to left, blue, rgb(255, 27, 65));
+        width: 100%;
+        height: auto;   
+        position: relative;
+    }
+}
